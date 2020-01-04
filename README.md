@@ -1,2 +1,2 @@
 # assay-viz
-small flask app to visualize assays
+small django app to visualize assays
