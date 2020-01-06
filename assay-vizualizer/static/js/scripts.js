@@ -1,8 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems);
-});
-
 function getFullAssayModel(pk) {
     var xmlhttp = new XMLHttpRequest();
 
