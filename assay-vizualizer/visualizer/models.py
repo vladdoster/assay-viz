@@ -1,0 +1,27 @@
+from django.db import models
+
+
+class assay_model(models.Model):
+    metadata = models.CharField(max_length=200)
+    metadata_1 = models.CharField(max_length=200)
+    metadata_2 = models.CharField(max_length=200)
+    measured_values = models.CharField(max_length=200)
+    measured_values_1 = models.CharField(max_length=200)
+    measured_values_2 = models.CharField(max_length=200)
+    measured_values_3 = models.CharField(max_length=200)
+    measured_values_4 = models.CharField(max_length=200)
+    measured_values_5 = models.CharField(max_length=200)
+    measured_values_6 = models.CharField(max_length=200)
+    measured_values_7 = models.CharField(max_length=200)
+    measured_values_8 = models.CharField(max_length=200)
+    measured_values_9 = models.CharField(max_length=200)
+    predicted_values = models.CharField(max_length=200)
+    predicted_values_1 = models.CharField(max_length=200)
+    predicted_values_2 = models.CharField(max_length=200)
+    predicted_values_3 = models.CharField(max_length=200)
+    predicted_values_4 = models.CharField(max_length=200)
+    predicted_values_5 = models.CharField(max_length=200)
+    predicted_values_6 = models.CharField(max_length=200)
+    predicted_values_7 = models.CharField(max_length=200)
+    predicted_values_8 = models.CharField(max_length=200)
+    predicted_values_9 = models.CharField(max_length=200)

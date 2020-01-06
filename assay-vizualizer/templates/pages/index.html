@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Assay Models</h2>
+    <input type="text" id="user_input" onkeyup="simpleSearch()" placeholder="Search for models to visualize..">
+    <div class="model_container">
+        <ul id="model_list">
+            {% for model in assay_model_list %}
+                <li onclick="getFullAssayModel({{ model.pk }})"><a>{{ model.pk }}{{ model.metadata }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <canvas id="visualization_chart" width="400" height="400"></canvas>
+{% endblock %}
+
+
