@@ -1,3 +1,13 @@
+
+
+<div align="center">
+
+# Assay model gt/predictions visualizer
+
+<img src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" data-canonical-src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" width="400" height="400" />
+
+</div>
+
 # DB choice
 PostgreSQL was chosen for a variety of reasons:
 
