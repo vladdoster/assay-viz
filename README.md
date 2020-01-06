@@ -1,3 +1,13 @@
+
+
+<div align="center">
+
+# Assay model gt/predictions visualizer
+
+<img src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" data-canonical-src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" width="400" height="400" />
+
+</div>
+
 # DB choice
 PostgreSQL was chosen for a variety of reasons:
 
@@ -14,12 +24,12 @@ an employee searches. It adds up quick, but postgres handles it with grace.
 ./run.sh
 ```
 #### Load dataset
-This should only be every time `./clear_env.sh` is run.
+This should only be every time `./clear_env.sh` is run or if you see no data when you go to [http://0.0.0.0:8000](http://0.0.0.0:8000). If run multiple times with out clearing env, duplicates will appear.
 ```shell script
 ./load_dataset.sh
 ```
 
-#### Create superuser
+#### Create superuser to access admin panel
 ```shell script
 ./createsuperuser.sh
 ```
