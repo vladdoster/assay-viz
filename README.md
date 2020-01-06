@@ -13,6 +13,12 @@ an employee searches. It adds up quick, but postgres handles it with grace.
 ```shell script
 ./run.sh
 ```
+#### Load dataset
+This should only be every time `./clear_env.sh` is run.
+```shell script
+./load_dataset.sh
+```
+
 #### Create superuser
 ```shell script
 ./createsuperuser.sh

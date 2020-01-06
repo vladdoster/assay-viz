@@ -9,7 +9,7 @@ RUN apk update \
   && apk add libffi-dev py-cffi \
   && apk add gettext \
   # https://docs.djangoproject.com/en/dev/ref/django-admin/#dbshell
-  && apk add postgresql-clien
+  && apk add postgresql-client
 
 # Requirements are installed here to ensure they will be cached.
 COPY ./requirements /requirements
