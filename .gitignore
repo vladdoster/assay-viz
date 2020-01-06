@@ -55,13 +55,6 @@ venv
 *.iml
 *.iws
 
-assay-vizualizer/settings/local.py
-assay-vizualizer/settings/production.py
-
-# collect static output directory
-assay-vizualizer/assets/
-assay-vizualizer/static/
-
 .DS_Store
 
 # node
