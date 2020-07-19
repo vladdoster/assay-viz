@@ -9,10 +9,11 @@
 ## Usage
 
 #### 1. Load dataset
-This should only be every time `./clear_env.sh` is run or if you see no data when you go to [http://0.0.0.0:8000](http://0.0.0.0:8000). If run multiple times with out clearing env, duplicates will appear.
+This should only be every time `./clear_env.sh` is run or if you see no data when you go to [http://0.0.0.0:8000](http://0.0.0.0:8000).
 ```bash
 ./load_dataset.sh
 ```
+**Note**: Loading dataset multiple times with out clearing env results in duplicates DB records.
 #### 2. Create superuser
 ```bash
 ./create_superuser.sh
