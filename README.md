@@ -15,7 +15,7 @@ This should only be every time `./clear_env.sh` is run or if you see no data whe
 ```bash
 ./load_dataset.sh
 ```
-**Note**: Loading dataset multiple times with out clearing env results in duplicates DB records.
+**Note**: Loading dataset multiple times with out clearing env causes duplicates DB records.
 #### 2. Create superuser
 ```bash
 ./create_superuser.sh
