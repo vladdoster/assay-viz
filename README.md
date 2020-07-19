@@ -6,7 +6,9 @@
 
 </div>
 
-## Usage
+---
+
+## Usage:
 
 #### 1. Load dataset
 This should only be every time `./clear_env.sh` is run or if you see no data when you go to [http://0.0.0.0:8000](http://0.0.0.0:8000).
