@@ -15,10 +15,10 @@ This should only be every time `./clear_env.sh` is run or if you see no data whe
 ```
 #### 2. Create superuser
 ```bash
-./createsuperuser.sh
+./create_superuser.sh
 ```
 #### 3. Start application
 ```bash
-./run.sh
+./start_application.sh
 ```
 **Note**: Docker images can be found on [DockerHub](https://hub.docker.com/repository/docker/vdoster/assay_viz)
