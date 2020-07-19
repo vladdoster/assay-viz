@@ -1,6 +1,6 @@
 <div align="center">
 
-# Assay model gt/predictions visualizer
+# Assay ML model ground truth vs predictions visualizer
 
 <img src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" data-canonical-src="https://github.com/vladdoster/assay-viz/blob/master/assay-viz.png" width="400" height="400" />
 
