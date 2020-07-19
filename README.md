@@ -10,15 +10,15 @@
 
 #### 1. Load dataset
 This should only be every time `./clear_env.sh` is run or if you see no data when you go to [http://0.0.0.0:8000](http://0.0.0.0:8000). If run multiple times with out clearing env, duplicates will appear.
-```shell script
+```bash
 ./load_dataset.sh
 ```
-#### 2. Create superuser to access admin panel
-```shell script
+#### 2. Create superuser
+```bash
 ./createsuperuser.sh
 ```
 #### 3. Start application
-```shell script
+```bash
 ./run.sh
 ```
 **Note**: Docker images can be found on [DockerHub](https://hub.docker.com/repository/docker/vdoster/assay_viz)
